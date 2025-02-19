@@ -8,7 +8,7 @@ This repository contains a **fine-tuned version of Phi-2**, optimized for **dial
 - Uses **Hugging Face `transformers` library** for inference
 
 ## Repository Structure
-- `fine-tuning-phi-2.ipynb` → Jupyter Notebook for fine-tuning
+- `fine_tuning_phi_2_nikke.ipynb` → Jupyter Notebook for fine-tuning
 - `README.md` → This file (model description and usage)
 
 ## Setup
