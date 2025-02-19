@@ -21,6 +21,7 @@ cd your-repo
 Run the fine-tuning notebook:
 ```bash
 jupyter notebook fine_tuning_phi_2_nikke.ipynb
+```
 
 ## Inference (Generating Summaries)
 ```bash
@@ -35,6 +36,7 @@ input_ids = tokenizer(prompt, return_tensors="pt").input_ids
 output = model.generate(input_ids, max_length=100)
 
 print(tokenizer.decode(output[0], skip_special_tokens=True))
+```
 
 ## License
 This project is released under the MIT License.
