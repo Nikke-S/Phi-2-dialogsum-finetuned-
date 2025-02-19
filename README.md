@@ -7,10 +7,6 @@ This repository contains a **fine-tuned version of Phi-2**, optimized for **dial
 - Supports summarization of **dialogues, chat logs, and transcripts**
 - Uses **Hugging Face `transformers` library** for inference
 
-## Repository Structure
-- `fine_tuning_phi_2_nikke.ipynb` → Jupyter Notebook for fine-tuning
-- `README.md` → This file (model description and usage)
-
 ## Setup
 Clone the repository:
 ```bash
